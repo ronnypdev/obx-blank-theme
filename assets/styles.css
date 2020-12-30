@@ -1,0 +1,11 @@
+.carousel-item-image {
+  display: block;
+  width: 480px;
+  height: 480px;
+}
+
+.flex-row-xd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
