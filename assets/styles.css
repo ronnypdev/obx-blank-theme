@@ -1,3 +1,8 @@
+.hero {
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
 .carousel-item-image {
   display: block;
   width: 480px;
