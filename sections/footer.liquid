@@ -2,12 +2,12 @@
   <div class="container">
     <div class="row">
     {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- when 'link_list' -%}
-        {%- render 'footer-block-link-list', fields: block.settings -%}
-      {%- when 'payment_icons' -%}
-        {%- render 'footer-block-payment-icons' -%}
-    {%- endcase -%}
+      {%- case block.type -%}
+        {%- when 'link_list' -%}
+          {%- render 'footer-block-link-list', fields: block.settings -%}
+        {%- when 'payment_icons' -%}
+          {%- render 'footer-block-payment-icons' -%}
+      {%- endcase -%}
     {%- endfor -%}
     </div>
   </div>
